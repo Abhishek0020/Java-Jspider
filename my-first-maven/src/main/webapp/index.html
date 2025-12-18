@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geometry Calculator</title>
+</head>
+<body>
+    <h2>Geometry Shape Calculator</h2>
+    <form action="geometry" method="post">
+        <label>Select Shape:</label>
+        <select name="shape">
+            <option value="triangle">Triangle (Area)</option>
+            <option value="pyramid">Pyramid (Volume)</option>
+            <option value="cylinder">Cylinder (Volume)</option>
+            <option value="rhombus">rhombus (Area)</option>
+            <option value="ellipse">Ellipse (Area)</option>
+            <option value="trapezium">Trapezium (Area)</option>
+        </select><br><br>
+
+        <label>Enter First Value:</label>
+        <input type="number" name="val1" step="any" required><br><br>
+
+        <label>Enter Second Value:</label>
+        <input type="number" name="val2" step="any"><br><br>
+
+        <label>Enter Third Value (if required):</label>
+        <input type="number" name="val3" step="any"><br><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
